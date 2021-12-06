@@ -3,7 +3,7 @@
   <Tester>Han Solo</Tester>
   <Date>06/12/2021</Date>
   <Title>CONTACT FORM No confirmation message is shown</Title>
-  <URL>www.google.com</URL
+  <URL>www.google.com</URL>
   <Summary>The page where the vontact form is on does not show any confirmation message after submitting a contact request</Summary>
   <Screenshot>see attached screenshots</Screenshot>
   <Platform>Mac OS 10.14</Platform>
