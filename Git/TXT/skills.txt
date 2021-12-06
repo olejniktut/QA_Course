@@ -1,0 +1,5 @@
+skills: 
+	Attention to detail
+	Problem-solving
+	Written and verbal communication
+	Knowledge of quality standards

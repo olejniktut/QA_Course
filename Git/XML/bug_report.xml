@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <id>123</id>
+  <Tester>Han Solo</Tester>
+  <Date>06/12/2021</Date>
+  <Title>CONTACT FORM No confirmation message is shown</Title>
+  <URL>www.google.com</URL
+  <Summary>The page where the vontact form is on does not show any confirmation message after submitting a contact request</Summary>
+  <Screenshot>see attached screenshots</Screenshot>
+  <Platform>Mac OS 10.14</Platform>
+  <Browser>Chrome 66.6.6.3 (64-bit)</Browser>
+  <Severity>Critical</Severity>
+  <STR>
+        1- file out contact from
+        2- clicked on submit
+        3- form loaded a while
+        4- contact form showed "<empty>"
+ </STR>	
+ <Actual_Result>"<empty>"</Actual_Result>
+<Expected_Result>thank you for contacting us</Expected_Result>

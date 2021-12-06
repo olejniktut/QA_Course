@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+	<FIO>OlejnikEveniy</FIO:>
+	<age>23</age>
+	<cat>4</cat>
+	<dog>2</dog>
+	<salary>1000</salary>
+</person>

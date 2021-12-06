@@ -1,0 +1,5 @@
+FIO:OlejnikEveniy
+age:23
+cat:4
+dog:2
+salary:1000
