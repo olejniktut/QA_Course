@@ -1,7 +1,7 @@
 Git Homework
 JSON
  4. Создать внешний репозиторий c названием JSON. 
-Create a new repository/JSON
+Create a new repository JSON
  5. Клонировать репозиторий JSON на локальный компьютер. 
 git clone https://github.com/olejniktut/QA_Course.git
  6. Внутри локального JSON создать файл “new.json”. 
@@ -15,20 +15,36 @@ $ git push
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 $ nano new.json cntr(o,x)
  11. Отправить изменения на внешний репозиторий.
+$ git add new.json
+$ git commit -m "change new-json"
+$ git push
  12. Создать файл preferences.json
+$ touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+$ nano preferences.json cntr(o,x)
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+$ touch skllis.json
+$ nano skllis.json
  15. Отправить сразу 2 файла на внешний репозиторий.
+$ git add *
+$ git commit -m "change preferences skill "
+$ git push
  16. На веб интерфейсе создать файл bug_report.json.
+Add file - Create new file
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ Commit new file: "bug_report.json."
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+Edit this file
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes: "change bug_report"
  20. Синхронизировать внешний и локальный репозиторий JSON
-
+ $ git pull
 
 XML
  21. Создать внешний репозиторий c названием XML.
+Create a new repository XML 
  22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/olejniktut/QA_Course.git
  23. Внутри локального XML создать файл “new.xml”.
  24. Добавить файл под гит.
  25. Закоммитить файл.
