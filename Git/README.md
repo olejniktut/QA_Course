@@ -13,7 +13,7 @@
  9. Отправить файл на внешний GitHub репозиторий.
 `$ git push`
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-`$ nano new.json cntr(o,x)`
+`$ vim new.json` - [ESC] :wq
  11. Отправить изменения на внешний репозиторий.
 `$ git add new.json`
 `$ git commit -m "change new-json"
@@ -21,10 +21,10 @@ $ git push`
  12. Создать файл preferences.json
 `$ touch preferences.json`
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-`$ nano preferences.json cntr(o,x)`
+`$ vim preferences.json` - [ESC] :wq
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 `$ touch skills.json`
-`$ nano skills.json`
+`$ vim skills.json` - [ESC] :wq
  15. Отправить сразу 2 файла на внешний репозиторий.
 `$ git add *`
 `$ git commit -m "change preferences skill "`
@@ -54,7 +54,7 @@ $ git push`
  26. Отправить файл на внешний GitHub репозиторий.
 `$ git push`
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-`$ nano new.xml cntr(o,x)`
+`$ vim new.xml` - [ESC] :wq
  28. Отправить изменения на внешний репозиторий.
 `$ git add new.xml `
 `$ git commit -m "change "new.xml"`
@@ -62,10 +62,10 @@ $ git push`
  29. Создать файл preferences.xml
 `$ touch preferences.xml`
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-`$ nano preferences.xml cntr(o,x)`
+`$ vim preferences.xml` - [ESC] :wq
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 `$ touch skills.xml`
-`$ nano skills.xml`
+`$ vim skills.xml` - [ESC] :wq
  32. Сделать коммит в одну строку.
 `$ git add *`
 `$ git commit -am "create 2 files"`
@@ -96,7 +96,7 @@ $ git push`
  6. Отправить файл на внешний GitHub репозиторий.
 `$ git push`
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-`$ nano new.txt cntr(o,x)`
+`$ vim new.txt` - [ESC] :wq
  8. Отправить изменения на внешний репозиторий.
 `$ git add new.txt`
 `$ git commit -m "change new-json"`
@@ -104,10 +104,10 @@ $ git push`
  9. Создать файл preferences.txt
 `$ touch preferences.txt`
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
-`$ nano preferences.txt cntr(o,x)`
+`$ vim preferences.txt` - [ESC] :wq
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 `$ touch skills.txt`
-`$ nano skills.txt`
+`$ vim skills.txt` - [ESC] :wq
  12. Сделать коммит в одну строку.
 `$ git add *`
 `$ git commit -am "create 2 files"`
