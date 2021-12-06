@@ -1,1 +1,20 @@
-
+{
+  "id":"123",
+  "Tester":"Han Solo",
+  "Date":"06/12/2021",
+  "Title":"CONTACT FORM No confirmation message is shown",
+  "URL":"www.google.com",
+  "Summary":"The page where the vontact form is on does not show any confirmation message after submitting a contact request",
+  "Screenshot":"see attached screenshots",
+  "Platform":"Mac OS 10.14",
+  "Browser":"Chrome 66.6.6.3 (64-bit)",
+  "Severity":"Critical",
+  "STR":[
+        "1- file out contact from",
+        "2- clicked on submit",
+        "3- form loaded a while",
+        "4- contact form showed <empty>"
+  ],
+  "Actual Result":"<empty>",
+  "Expected Result":"thank you for contacting us"
+}
