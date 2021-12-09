@@ -68,7 +68,7 @@ $ git push`
 `$ vim skills.xml` - [ESC] :wq
  32. Сделать коммит в одну строку.
 `$ git add *`
-`$ git commit -am "create 2 files"`
+`$ git commit -m "create 2 files"`
  33. Отправить сразу 2 файла на внешний репозиторий.
 `$ git push`
  34. На веб интерфейсе создать файл bug_report.xml.
@@ -110,7 +110,7 @@ $ git push`
 `$ vim skills.txt` - [ESC] :wq
  12. Сделать коммит в одну строку.
 `$ git add *`
-`$ git commit -am "create 2 files"`
+`$ git commit -m "create 2 files"`
  13. Отправить сразу 2 файла на внешний репозиторий.
 `$ git push`
  14. На веб интерфейсе создать файл bug_report.txt.
