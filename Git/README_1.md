@@ -26,8 +26,7 @@ $ git push`
 `$ touch skills.json`
 `$ vim skills.json` - [ESC] :wq
  15. Отправить сразу 2 файла на внешний репозиторий.
-`$ git add *`
-`$ git commit -m "change preferences skill "`
+`$ git commit -am "change preferences skill "`
 `$ git push`
  16. На веб интерфейсе создать файл bug_report.json.
 `Add file - Create new file`
@@ -67,8 +66,7 @@ $ git push`
 `$ touch skills.xml`
 `$ vim skills.xml` - [ESC] :wq
  32. Сделать коммит в одну строку.
-`$ git add *`
-`$ git commit -m "create 2 files"`
+`$ git commit -am "create 2 files"`
  33. Отправить сразу 2 файла на внешний репозиторий.
 `$ git push`
  34. На веб интерфейсе создать файл bug_report.xml.
@@ -98,8 +96,7 @@ $ git push`
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 `$ vim new.txt` - [ESC] :wq
  8. Отправить изменения на внешний репозиторий.
-`$ git add new.txt`
-`$ git commit -m "change new-json"`
+`$ git commit -am "change new-json"`
 `$ git push`
  9. Создать файл preferences.txt
 `$ touch preferences.txt`
@@ -109,8 +106,7 @@ $ git push`
 `$ touch skills.txt`
 `$ vim skills.txt` - [ESC] :wq
  12. Сделать коммит в одну строку.
-`$ git add *`
-`$ git commit -m "create 2 files"`
+`$ git commit -am "create 2 files"`
  13. Отправить сразу 2 файла на внешний репозиторий.
 `$ git push`
  14. На веб интерфейсе создать файл bug_report.txt.
