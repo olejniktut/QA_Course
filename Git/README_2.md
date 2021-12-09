@@ -32,4 +32,10 @@ $ git commint -m "checklist -c"
 $ git push origin CheckLists
 ```
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main 
+```
+Open a pull request
+Create pull request (This branch has no conflicts with the base branch)
+Merge pull request
+Confirm maerge (Pull request successfully merged and closed)
+```
 10. Синхронизировать Внешнюю и Локальную ветки Main `$ git checkout main` `$ git pull`
