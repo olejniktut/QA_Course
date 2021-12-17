@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+ <report> 
   <id>123</id>
   <Tester>Han Solo</Tester>
   <Date>06/12/2021</Date>
@@ -13,7 +14,8 @@
         1- file out contact from
         2- clicked on submit
         3- form loaded a while
-        4- contact form showed "<empty>"
- </STR>	
- <Actual_Result>"<empty>"</Actual_Result>
-<Expected_Result>thank you for contacting us</Expected_Result>
+        4- contact form showed "empty"
+  </STR>	
+  <Actual_Result>"empty"</Actual_Result>
+  <Expected_Result>thank you for contacting us</Expected_Result>
+    </report>
