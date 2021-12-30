@@ -9,11 +9,11 @@ DB: qa_students_1
 Table: students
 ```
  1. Вывести все поля и все строки.
-```
+`
 select * 
 from students
 
-```
+`
  2. Вывести всех студентов в таблице
 ```
 select * 
