@@ -132,3 +132,11 @@ select distinct a.model, b.model, a.speed, a.ram
 from pc a, pc b
 where a.speed = b.speed and a.ram = b.ram and a.model > b.model
 ```
+Задание: 17 Найдите модели ПК-блокнотов, скорость которых меньше скорости каждого из ПК.
+Вывести: type, model, speed
+
+```SQL
+select DISTINCT product.type, laptop.model, speed
+from laptop, product
+where product.model = Laptop.model AND speed < ALL (SELECT speed FROM PC)
+```
