@@ -81,3 +81,54 @@ join PC on PC.model = Product.model
 where speed >= 450
 ```
 
+Задание: 10 Найдите модели принтеров, имеющих самую высокую цену. Вывести: model, price
+
+```SQL
+select DISTINCT model, price
+from printer
+where price = (select max(price) from printer)
+```
+Задание: 11Найдите среднюю скорость ПК.
+
+```SQL
+select avg(speed)
+from PC
+```
+Задание: 12 Найдите среднюю скорость ПК-блокнотов, цена которых превышает 1000 дол.
+
+```SQL
+select avg(speed)
+from laptop
+where price > 1000
+```
+Задание: 13 Найдите среднюю скорость ПК, выпущенных производителем A.
+
+```SQL
+select avg(speed)
+from pc
+join product on product.model = pc.model
+where maker like 'A'
+```
+Задание: 14 Найдите класс, имя и страну для кораблей из таблицы Ships, имеющих не менее 10 орудий.
+
+```SQL
+select classes.class, ships.name, classes.country
+from classes
+join ships on ships.class = classes.class
+where numGuns >= 10
+```
+Задание: 15 Найдите размеры жестких дисков, совпадающих у двух и более PC. Вывести: HD
+
+```SQL
+select hd
+from pc
+group by hd
+having count(*) > 1
+```
+Задание: 16 Найдите пары моделей PC, имеющих одинаковые скорость и RAM. В результате каждая пара указывается только один раз, т.е. (i,j), но не (j,i), Порядок вывода: модель с большим номером, модель с меньшим номером, скорость и RAM.
+
+```SQL
+select distinct a.model, b.model, a.speed, a.ram
+from pc a, pc b
+where a.speed = b.speed and a.ram = b.ram and a.model > b.model
+```
