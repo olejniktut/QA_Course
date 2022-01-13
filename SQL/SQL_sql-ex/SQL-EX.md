@@ -140,3 +140,29 @@ select DISTINCT product.type, laptop.model, speed
 from laptop, product
 where product.model = Laptop.model AND speed < ALL (SELECT speed FROM PC)
 ```
+Задание: 18 Найдите производителей самых дешевых цветных принтеров. Вывести: maker, price
+
+```SQL
+select maker, price
+from printer
+join product on product.model = printer.model
+where color = 'y' and price = (select min(price) from printer where color = 'y')
+```
+Задание: 19 Для каждого производителя, имеющего модели в таблице Laptop, найдите средний размер экрана выпускаемых им ПК-блокнотов.
+Вывести: maker, средний размер экрана.
+
+```SQL
+select maker, avg(screen)
+from laptop
+join Product on Product.model = laptop.model
+group by maker
+```
+Задание: 20 Найдите производителей, выпускающих по меньшей мере три различных модели ПК. Вывести: Maker, число моделей ПК
+
+```SQL
+select maker, count(model) as Count_Model
+from product
+where type = 'pc'
+group by maker
+having Count(Model) >= 3
+```
